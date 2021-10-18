@@ -1,0 +1,46 @@
+.toolbar {
+    flex: 1;
+    height: 72px;
+    /*min-width: 100%;*/
+    position: fixed;
+    top: 0;
+    /*left: 0;*/
+    right: 0;
+    /*right: 321px;*/
+    background-color: #DD0E52;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    color: white;
+    font-weight: 600;
+}
+
+.Toolbar nav {
+    height: 100%
+}
+
+.newNotification {
+    height: 10px;
+    width: 10px;
+    border: 2px solid blue;
+    border-radius: 7px;
+    background-color: #007eff;
+    position: relative;
+    bottom: 18px;
+    left: 18px;
+}
+
+.notificationIcon {
+    padding: 18px 30px;
+}
+
+.logoutIcon {
+    padding: 19px 30px;
+}
+
+.notificationIcon:hover,
+.logoutIcon:hover{
+    background-color: #be0d47;
+}
+

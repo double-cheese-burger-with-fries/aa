@@ -1,0 +1,14 @@
+.component {
+    display: flex;
+    background-color: #bbe7f0;
+    padding-bottom: 80px;
+    border-top: 2px solid #bbbbbe
+
+}
+
+.input {
+    flex: 1;
+    background-color: white;
+    display: flex;
+    border-radius: 3px;
+}

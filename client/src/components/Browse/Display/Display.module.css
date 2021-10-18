@@ -1,0 +1,22 @@
+.component {
+    background-color: black;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    -webkit-flex: 1 1 auto;
+    overflow-y: auto;
+    min-height: 0px;
+    /*padding: 10px;*/
+    /* margin-bottom: 2% */
+}
+
+.padding {
+    background-color: black;
+    height: 80px;
+}
+
+.scrolling {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "matcha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "start": "concurrently --kill-others \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "bdal-can/rghirell",
+  "license": "ISC",
+  "devDependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^3.5.1",
+    "dates-between": "^1.1.0",
+    "faker": "^4.1.0",
+    "jest": "^24.9.0",
+    "moment": "^2.22.2",
+    "mysql2": "^1.6.4",
+    "random-location": "^1.0.12"
+  }
+}

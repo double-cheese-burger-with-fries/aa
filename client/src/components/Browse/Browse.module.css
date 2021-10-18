@@ -1,0 +1,8 @@
+.component {
+    display: flex;
+    /*width: 100%;*/
+    /*background-color: black;*/
+    /*min-width: 886px;*/
+    height: 100%;
+    align-items: stretch;
+}

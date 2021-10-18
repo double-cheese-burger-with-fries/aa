@@ -1,0 +1,74 @@
+.component {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 200px;
+    width: 140px;
+    border: 3px solid darkcyan;
+    border-radius: 20px;
+    margin: 5px;
+    align-items: center;
+}
+
+.img {
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    width: 140px;
+    height: 180px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.img:hover {
+    cursor: pointer;
+}
+
+.f {
+    border-color: deeppink;
+    background-color: white;
+}
+
+.m {
+    border-color: deepskyblue;
+    background-color: lightblue;
+}
+
+.name {
+    margin: 8px 0;
+    font-weight: bold;
+
+}
+
+.icons {
+    width: 80%;/*display: flex;*/
+    display: flex;
+    margin: 1px 0;
+    color: #373737;
+    justify-content: space-around;
+}
+
+
+
+.activeChat {
+    color: green;
+    /*margin-left: 23px;*/
+}
+
+.fame {
+    background-color: rgba(0, 0, 0, 0.6);;
+    color: yellow;
+    font-size: 11px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    padding: 1px 5px;
+    margin: 6px;
+    font-weight: 600;
+}
+
+.starIcon {
+    font-size: 17px !important;
+    height: 10px;
+    margin: 0 2px 0 0;
+}

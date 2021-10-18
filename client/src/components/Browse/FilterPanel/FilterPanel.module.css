@@ -1,0 +1,48 @@
+.component {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 240px;
+    height: 100%;
+}
+
+.header {
+    text-align: center;
+    padding: 15px;
+    background-color: darkgrey;
+    border-top: 2px solid black;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.sortingBox {
+    height: 176px;
+    display: flex;
+    flex-direction: column;
+}
+.label {
+    color: #DD0E52;
+    margin: 15px 0;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    margin: 0 10px 30px 10px;
+    /*line-height: 60px;*/
+    width: 210px;
+
+}
+
+.interestsFilter {
+    width: 100%;
+}
+
+.blockToggle {
+    padding-left: 50px;
+}
+

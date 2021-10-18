@@ -1,0 +1,52 @@
+.navigationItems {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%
+}
+
+.item {
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.item a {
+    min-width: 100px;
+    max-width: 150px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 22px 10px;
+    height: 100%;
+    border-bottom: 4px solid transparent;
+    box-sizing: border-box;
+    display: block;
+}
+
+.item a:hover,
+.item a:active,
+.item a.active {
+    background-color: #be0d47;
+    /*border-bottom: 4px solid black;*/
+    /*color: white;*/
+}
+
+.mailIcon {
+    display: block;
+    /*position: absolute;*/
+    color: yellow;
+    margin-left: 10px;
+    font-size: 24px !important;
+    top: 20px;
+}
+
+.chatText {
+    display: flex;
+    align-items: center;
+    margin: 0 10px 0 18px;
+}

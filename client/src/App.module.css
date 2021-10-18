@@ -1,0 +1,41 @@
+.app {
+    display: flex;
+    height: 100vh;
+    background-color: pink;
+    justify-content: center;
+    align-items: center;
+    /*background: linear-gradient(45deg, rgba(255, 0, 192, 0.75), rgba(255, 0, 0, 1));*/
+}
+
+
+.contentWithToolbar {
+    /*margin-top: 142px;*/
+    height: 100vh;
+    /*width: 100%;*/
+    /*width: 100%;*/
+    display: flex;
+    position: fixed;
+    top: 72px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /*right: 0;*/
+    flex-grow: 1;
+    flex-direction: column;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+
+}
+
+.contentWithoutToolbar {
+    height: 100vh;
+    width: 100%;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.toolbarAndNotifications {
+    display: flex;
+}

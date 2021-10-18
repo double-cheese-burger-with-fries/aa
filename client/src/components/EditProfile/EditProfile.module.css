@@ -1,0 +1,43 @@
+.component {
+    /*margin-bottom: 20px;*/
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    -webkit-flex: 1 1 auto;
+    overflow-y: auto;
+    min-height: 0; 
+}
+
+.headerName {
+    display: flex;
+    flex-direction: row;
+    /* flex: 8; */
+    justify-content: space-evenly;
+
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+.interests {
+    margin: 10px 15px;
+    border: 1px solid #b7b7b7;
+    border-radius: 4px;
+}
+
+.chip {
+    margin: 5px 10px 0 0;
+}
+
+.interestsLabel {
+    color: #757575;
+    margin: 14px 0 10px 15px;
+}
+
+.chips {
+    margin: 0 15px 10px;
+}

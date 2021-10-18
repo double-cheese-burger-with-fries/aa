@@ -1,0 +1,55 @@
+.component {
+    /*margin-bottom: 20px;*/
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.upperPart {
+    display: flex;
+    flex-direction: column;
+    /*justify-conte*/
+    align-items: stretch;
+    /*width: 90%;*/
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+}
+
+.progress {
+    width: 95%;
+    margin: 30px 0 ;
+}
+
+.chip {
+    margin: 5px 10px 0 0;
+}
+
+.chips {
+    margin: 0 15px 10px;
+}
+
+.interests {
+    margin: 10px 15px;
+    border: 1px solid #b7b7b7;
+    border-radius: 4px;
+}
+
+.interestsLabel {
+    color: #757575;
+    margin: 14px 0 10px 15px;
+}

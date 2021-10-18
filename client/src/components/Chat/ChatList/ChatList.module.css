@@ -1,0 +1,23 @@
+.component {
+    width: 260px;
+    border-right: 2px solid #bbbbbe
+}
+
+.unreadBadge {
+    background-color: #00b101;
+    /*padding: 2px 5px;*/
+    height: 22px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 11px;
+    font-size: 12px;
+    margin: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.avatar {
+    cursor: pointer
+}

@@ -1,0 +1,11 @@
+.component {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-grow: 1;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
